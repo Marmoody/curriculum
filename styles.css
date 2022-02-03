@@ -8,7 +8,8 @@ body{
 }
 
 hr{
-    border: 1px solid;
+    width: 40%;
+    border: 1px solid darkgray;
 }
 
 .heading {
@@ -17,7 +18,7 @@ hr{
 }
 
 .heading h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .character-selection{
@@ -263,7 +264,25 @@ hr{
     text-align: center;
 }
 
+.logo{
+    width: 30%;
+}
+
+.kpmg-logo{
+    width: 40%;
+}
+    
 .quests{
+    width: 70%;
+    background-color: #99A799;
+    margin: 20px auto;
+    text-align: left;
+    padding: 10px;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+}
+
+.quests-two{
     width: 70%;
     background-color: #99A799;
     margin: 20px auto;
@@ -360,16 +379,14 @@ hr{
 }
 
 .completed-quest-heading h2{
-    display: inline-block;
     margin: 0;
     padding-bottom: 25px;
     vertical-align: middle;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .completed-quest-heading img{
-    display: inline-block;
-    width: 30px;
+    width: 5%;
 }
 
 .hr-small{

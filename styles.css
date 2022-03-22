@@ -32,8 +32,14 @@ hr{
 
 .character-type{
     background-color: #99A799;
-    border-right: 5px solid lightgrey;
-    border-bottom: 5px solid lightgrey;
+    box-shadow: 5px 5px grey;
+    margin: 10px 10px;
+    padding: 0  5px;
+}
+
+.char-button:hover{
+    background-color: lightgrey;
+    box-shadow: 5px 5px grey;
     margin: 10px 5px;
     padding: 0  5px;
 }
@@ -87,8 +93,7 @@ hr{
     min-width: 220px;
     padding: 0 10px;
     text-align: left;
-    border-right: 5px solid;
-    border-bottom: 5px solid;
+    box-shadow: 5px 5px grey;
 }
 
 @media only screen and (max-width: 1000px ) {
@@ -124,15 +129,12 @@ hr{
 
 .character-img-container {
     background-color: #99A799;
-    width: 30%;
+    width: 40%;
     min-width: 220px;
     max-height: 348px;
     min-height: 348px;
     margin-left: 50px;
-    border-right: 5px solid;
-    border-bottom: 5px solid;
-    border-top: 1px solid;
-    border-left: 1px solid;
+    box-shadow: 5px 5px grey;
     display: flex;
 }
 
@@ -152,10 +154,7 @@ hr{
         width: 30%;
         min-width: 220px;
         min-height: 220px;
-        border-right: 5px solid;
-        border-bottom: 5px solid;
-        border-top: 1px solid;
-        border-left: 1px solid;
+        box-shadow: 5px 5px grey;
         display: flex;
     }
     .character-img {
@@ -171,10 +170,17 @@ hr{
     width: 70%;
     padding: 10px;
     background-color: #99A799;
-    display: inline-block; 
-    text-align: left;
-    border-right: 5px solid;
-    border-bottom: 5px solid;
+    display: grid;
+    grid-template: 350px / 50% 20px 50%;
+    align-items: center;
+    box-shadow: 5px 5px grey;
+    margin: 0 auto;
+}
+
+.vertical-line{
+    height: 250px;
+    width: 5px; 
+    background-color: grey;
 }
 
 .character-eigenschaften ul li{
@@ -193,14 +199,16 @@ hr{
 .traits {
     width: inherit;
     display: grid;
-    grid-template: 50px 50px 50px 50px / 10% 50%;
+    grid-template: 50px 50px 50px 50px / 100%;
     gap: 10px;
     justify-content: center;
     margin: 10px auto 30px;
+    text-align: left;
 }
 
 .traits div {
     font-size: 1.3rem;
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 800px){
@@ -212,19 +220,32 @@ hr{
     }  
 }
 
+.icon-text-grid{
+    display: grid;
+    grid-template: 50px 50px 50px 50px / 10% 90%;
+}
+
 .traits-heading{
-    margin-top: 10px;
+    width: 71%;
+    margin: 10px auto;
+}
+
+.traits-heading-bg{
+    width: 30%;
+    display: flex;
+    background-color: #99A799;
+    align-items: center;
+    box-shadow: 5px 5px grey;
 }
 
 .traits-heading img{
-    margin: 20px 0 20px 0;
-    width: 5%;
+    margin: 20px 20px;
+    width: 15%;
 }
 
 .traits-heading h2{
     margin: 0;
     vertical-align: middle;
-    padding-bottom: 30px;
     font-size: 2rem;
 }
 
@@ -232,7 +253,7 @@ hr{
     width: 80%;
     text-align: center;
     display: grid;
-    grid-template: 90px 90px/ 30% 30% 30%;
+    grid-template: 90px 90px 90px/ 50% 50%;
     gap: 20px;
     justify-content: space-evenly;
     margin: 20px auto;
@@ -275,21 +296,19 @@ hr{
 .quests{
     width: 70%;
     background-color: #99A799;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: left;
     padding: 10px;
-    border-right: 5px solid;
-    border-bottom: 5px solid;
+    box-shadow: 5px 5px grey;
 }
 
 .quests-two{
     width: 70%;
     background-color: #99A799;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: left;
     padding: 10px;
-    border-right: 5px solid;
-    border-bottom: 5px solid;
+    box-shadow: 5px 5px grey;
 }
 
 @media only screen and (max-width: 800px) {
@@ -299,19 +318,18 @@ hr{
 }
 
 .current-quest-heading {
-    margin-top: 30px;
+    width: 71%;
+    margin: 30px auto 10px;
 }
 
 .current-quest-heading h2{
-    margin: 0;
-    padding-bottom: 25px;
     vertical-align: middle;
     font-size: 2rem;
 }
 
 .current-quest-heading img{
-    width: 5%;
-    margin-bottom: 20px;
+    width: 15%;
+    padding: 0 20px;
 }
 
 .employer {
@@ -379,14 +397,12 @@ hr{
 }
 
 .completed-quest-heading h2{
-    margin: 0;
-    padding-bottom: 25px;
     vertical-align: middle;
     font-size: 2rem;
 }
 
 .completed-quest-heading img{
-    width: 5%;
+    width: 15%;
 }
 
 .hr-small{

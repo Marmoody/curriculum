@@ -37,13 +37,6 @@ hr{
     padding: 0  5px;
 }
 
-.char-button:hover{
-    background-color: lightgrey;
-    box-shadow: 5px 5px grey;
-    margin: 10px 5px;
-    padding: 0  5px;
-}
-
 .character-type p{
     font-size: 1.5rem;
     margin-block-start: 0.5em;
@@ -110,7 +103,7 @@ hr{
 .info-grid {
     margin-top: 20px;
     display: grid;
-    grid-template: 50px 50px 50px / 40% 40%;
+    grid-template: 60px 60px 60px / 10% 10% 40%;
     column-gap: 50px;
 }
 

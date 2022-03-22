@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/39a0a5e4f3.js" crossorigin="anonymous"></script>
+<script src="script.js" async></script>
     <title>Marius Westers</title>
 </head>
 <body>
@@ -16,24 +17,27 @@
         <div class="heading"><h1>Choose your character</h1></div>
         <hr>
         <div class="character-selection">
-            <div class="character-type char-button"><p>Business Marius</p></div>
-            <div class="character-type char-button"><p>Casual Marius</p></div>
+            <div id="button-one" class="character-type char-button"><p>Business Marius</p></div>
+            <div id="button-two" class="character-type char-button"><p>Casual Marius</p></div>
         </div>
         <div class="character">
                 <div class="character-info">
                     <div class="info-grid">
-                        <div class="stats">Life: 100%</div>
+                        <div class="stats">Life:</div>
+                        <div class="stats">100%</div>
                         <div class="bars"><img src="imgs/Lebensbalken.png" alt=""></div>
-                        <div class="stats">Energy: 100%</div>
+                        <div class="stats">Energy:</div>
+                        <div class="stats">100%</div>
                         <div class="bars"><img src="imgs/Manabalken.png" alt=""></div>
-                        <div class="stats">Level: 30</div>
+                        <div class="stats">Level:</div>
+                        <div class="stats">30</div>
                         <div class="bars"><img src="imgs/Experiencebalken.png" alt=""></div>
                     </div>    
                     <h4>Description</h4>
-                    <p class="description">Business Marius is an allrounder who can pick up any skill up to a certain level. Her performs best if supported by a teammate. His strengths are empathy and creativity. </p>
+                    <p id ="char-description" class="description">Business Marius is an allrounder who can pick up any skill up to a certain level. Her performs best if supported by a teammate.</p>
                 </div>
                 <div class="character-img-container">
-                    <img class="character-img" src="imgs/Marius Pixel 1.png" alt="">
+                    <img id="char-img" class="character-img" src="imgs/Marius Sprite.gif" alt="">
                 </div>
         </div>
 
@@ -48,10 +52,10 @@
         </div>
         <div class="character-eigenschaften">
             <div class="traits">
-                <div class="icon-text-grid"><i class="fas fa-check-circle"></i><div>Get things done mentality</div></div>
-                <div class="icon-text-grid"><i class="fas fa-graduation-cap"></i><div>Quick learner / High will to learn</div></div>
-                <div class="icon-text-grid"><i class="fas fa-user-friends"></i><div>Teamplayer</div></div>
-                <div class="icon-text-grid"><i class="fas fa-crosshairs"></i><div>100% committment to the company/product</div></div>
+                <div class="icon-text-grid"><i class="fas fa-check-circle"></i><div id="skillOne">Get things done mentality</div></div>
+                <div class="icon-text-grid"><i class="fas fa-graduation-cap"></i><div id="skillTwo">Quick learner / High will to learn</div></div>
+                <div class="icon-text-grid"><i class="fas fa-user-friends"></i><div id="skillThree">Teamplayer</div></div>
+                <div class="icon-text-grid"><i class="fas fa-crosshairs"></i><div id="skillFour">100% committment to the company/product</div></div>
             </div>
             <div class="vertical-line"></div>
             <div class="skills">

@@ -433,6 +433,7 @@ a:hover {
     .navigation {
         display: flex;
         margin: 0;
+        margin-bottom: 50px;
         padding: 0;
         height: 50px;
         width: 100%;
@@ -440,17 +441,20 @@ a:hover {
     }
     .navbar {
         display: flex;
-        height: 50px;
+        height: 80px;
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto 50px;
         background-color: #99A799;    
     }
     .navLogo {
-        margin: 0 auto 0 10px;
+        margin: 15px auto 0 10px;
         width: 50px;
     }
     .menu {
         text-align: center;
+        display: grid;
+        grid-template: 25px 25px / 50% 50%;
+        gap: 10px;
     }
     .menuLink {
         margin: 0 5px;
@@ -661,7 +665,7 @@ button {
         margin: 10px 10px;
         padding: 0  5px;
     }
-    .realMariusDescription {
+    #realMariusDescription {
         width: 70%;
     }
     .personalInfo img {

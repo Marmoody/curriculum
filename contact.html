@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39a0a5e4f3.js" crossorigin="anonymous"></script>
     <script src="script.js" async></script>
-    <title>About Me</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <section class="navigation">
@@ -25,24 +25,24 @@
             </div>
         </div>
     </section>
-    <section class="personalInfo">
-        <h1>Hi, my name is Marius Westers!</h1>
-        <h2>and this is what I look like in real life:</h2>
-        <div class="aboutButtons">
-            <button id="aboutButtonOne" class="char-button">Business Marius</button>
-            <button id="aboutButtonTwo" class="char-button">Casual Marius</button>
-        </div>
-        <img class="realMarius" src="imgs/Marius mit Hund.jpg" alt="">
-        <div id="realMariusDescription" class="realMariusDescription">
-            <p>
-            I work in Business Development. I live currently in Düsseldorf, but my hometown is Emsdetten (near Münster).<br>
-            I love Music and play two Instruments (Guitar, Drums).<br>
-            I am a Gamer and dream of creating my own Videogame.<br>
-            During the first Covid Lockdown I started learning programming (I started with Web Dev/Front End).<br>
-            I love Dogs.<br>
-            </p>
-        </div>
-        
+    <section class="contactForm">
+        <h1>Feel free to shoot me a message!</h1>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </section>
 </body>
 </html>

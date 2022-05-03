@@ -20,16 +20,17 @@ hr{
     display: flex;
     margin: 0;
     padding: 0;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: #99A799; 
 }
 
 .navbar {
     display: flex;
-    height: 50px;
+    height: 60px;
     width: 70%;
     margin: 0 auto;
+    align-items: center;
     background-color: #99A799;    
 }
 .navLogo {

@@ -27,7 +27,8 @@ let coinThree = document.getElementById('coinThree');
 let coinFour = document.getElementById('coinFour');
 let coinFive = document.getElementById('coinFive');
 let coinSix = document.getElementById('coinSix');
-
+//About Me
+let realMarius = document.getElementById('realMarius');
 
 //logo hover effect
 

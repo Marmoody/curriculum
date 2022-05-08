@@ -1,8 +1,8 @@
 const logo = document.getElementById('navLogo');
 const homeMenu = document.getElementById('homeMenu');
 
-const buttonOne = document.getElementById('button-one');
-const buttonTwo = document.getElementById('button-two');
+const buttonThree = document.getElementById('button-three');
+const buttonFour = document.getElementById('button-four');
 
 const arrowOne = document.getElementById('arrowGifOne');
 const arrowTwo = document.getElementById('arrowGifTwo'); 
@@ -17,42 +17,42 @@ logo.onmouseout = () => {
     homeMenu.style.display = "none";
 }
 
-buttonOne.onmousedown = () => {
-    buttonOne.style.backgroundColor = "grey";
+buttonThree.onmousedown = () => {
+    buttonThree.style.backgroundColor = "grey";
 }
 
-buttonOne.onmouseup = () => {
-    buttonOne.style.backgroundColor = "#99A799";
+buttonThree.onmouseup = () => {
+    buttonThree.style.backgroundColor = "#99A799";
 }
 
-buttonTwo.onmousedown = () => {
-    buttonTwo.style.backgroundColor = "grey";
+buttonFour.onmousedown = () => {
+    buttonFour.style.backgroundColor = "grey";
 }
 
-buttonTwo.onmouseup = () => {
-    buttonTwo.style.backgroundColor = "#99A799";
+buttonFour.onmouseup = () => {
+    buttonFour.style.backgroundColor = "#99A799";
 }
 
-buttonOne.onmouseover = () => {
+buttonThree.onmouseover = () => {
     arrowOne.style.visibility = 'visible';
 }
 
-buttonOne.onmouseleave = () => {
+buttonThree.onmouseleave = () => {
     arrowOne.style.visibility = 'hidden';
 }
 
-buttonTwo.onmouseover = () => {
+buttonFour.onmouseover = () => {
     arrowTwo.style.visibility = 'visible';
 }
 
-buttonTwo.onmouseleave = () => {
+buttonFour.onmouseleave = () => {
     arrowTwo.style.visibility = 'hidden';
 }
 
-buttonOne.onclick = () => {
+buttonThree.onclick = () => {
     realMarius.src = "imgs/Bewerbungsfoto Marius.jpg";
 }
 
-buttonTwo.onclick = () => {
+buttonFour.onclick = () => {
     realMarius.src = "imgs/Marius mit Hund.jpg";
 }

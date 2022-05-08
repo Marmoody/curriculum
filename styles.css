@@ -149,6 +149,18 @@ a:hover {
     color: #D3E4CD;
 }
 
+.chosenChar {
+    font-size: 2rem;
+    margin: 50px auto 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 60%;
+    box-shadow: 5px 5px grey;
+    background-color: #99A799;
+    letter-spacing: 4px;
+}
+
+
 .character-info{
     background-color: #99A799;
     width: 40%;
@@ -531,6 +543,18 @@ a:hover {
     #arrowGifTwo {
         display: none
     }
+
+    .chosenChar {
+        font-size: 1.5rem;
+        margin: 20px auto 0;
+        font-weight: bold;
+        line-height: 1;
+        width: 60%;
+        box-shadow: 5px 5px grey;
+        background-color: #99A799;
+        letter-spacing: 4px;
+    }
+
     .character-selection{
         width: 35%;
         display: grid;

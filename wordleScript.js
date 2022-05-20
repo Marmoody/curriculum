@@ -77,10 +77,10 @@ const checkInputValues = () => {
             console.log(guessWord);
             if (inputVal == chosenWord[i]) {
                 inputFie.style.backgroundColor = "green";
+            } else if (inputVal.length == 0) {
+                inputFie.style.backgroundColor = "#d12502";
             } else if (chosenWord.includes(inputVal)) {
                 inputFie.style.backgroundColor = "yellow";
-            } else if (inputVal == null || inputVal == "") {
-                inputFie.style.backgroundColor = "#d12502";
             } else {
                 inputFie.style.backgroundColor = "#d12502";
             }
@@ -94,10 +94,10 @@ const checkInputValues = () => {
             console.log(inputVal);
             if (inputVal == chosenWord[j]) {
                 inputFie.style.backgroundColor = "green";
+            } else if (inputVal.length == 0) {
+                inputFie.style.backgroundColor = "#d12502";
             } else if (chosenWord.includes(inputVal)) {
                 inputFie.style.backgroundColor = "yellow";
-            } else if (inputVal == null || inputVal == "") {
-                inputFie.style.backgroundColor = "#d12502";
             } else {
                 inputFie.style.backgroundColor = "#d12502";
             }
